@@ -16,11 +16,9 @@ COPY otel.php.ini $PHP_INI_DIR/conf.d/.
 COPY --from=build /app/vendor /var/www/otel
 
 RUN curl -L https://wordpress.org/latest.zip -o /tmp/latest.zip
-
-USER www-data:www-data
-WORKDIR /var/local/wordpress
-
 RUN unzip /tmp/latest.zip -d /var/local
+
+WORKDIR /var/local/wordpress
 
 RUN mv wp-content wp-content.bak
 RUN mkdir /var/local/wordpress/wp-content
