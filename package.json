@@ -1,7 +1,7 @@
 {
     "homepage": "https://rhildred.github.io/wp-server",
     "devDependencies": {
-        "wp-pwa": "latest"
+        "wp-pwa": "^0.1.27"
     },
     "scripts": {
         "dev": "docker compose up",
