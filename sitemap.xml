@@ -1,0 +1,33 @@
+<?xml?>
+<urlset>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/hello-world/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/this-one-in-markdown/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/sample-page/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/category/uncategorized/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/wp-server/author/rhildred/
+        </loc>
+    </url>
+</urlset>
