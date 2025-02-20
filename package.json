@@ -5,6 +5,6 @@
     },
     "scripts": {
         "dev": "docker compose up",
-        "build": "wp-pwa build INFO8985-observable-monolith && npx diy-pwa index dist"
+        "build": "wp-pwa build wp-server && npx diy-pwa index dist"
     }
 }
