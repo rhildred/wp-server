@@ -1,9 +1,10 @@
 {
+    "homepage": "https://rhildred.github.io/wp-server",
     "devDependencies": {
         "wp-pwa": "^0.1.24"
     },
     "scripts": {
         "dev": "docker compose up",
-        "build": "wp-pwa build INFO8985-observable-monolith"
+        "build": "wp-pwa build INFO8985-observable-monolith && npx diy-pwa index dist"
     }
 }
