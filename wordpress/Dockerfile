@@ -15,12 +15,12 @@ COPY otel.php.ini $PHP_INI_DIR/conf.d/.
 # Copy in the composer vendor files and autoload.php
 COPY --from=build /app/vendor /var/www/otel
 
-RUN curl https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o /usr/bin/wp-cli && chmod +x /usr/bin/wp-cli
+RUN curl -L https://wordpress.org/latest.zip -o /tmp/latest.zip
 
 USER www-data:www-data
 WORKDIR /var/local/wordpress
 
-RUN php -d memory_limit=512M -f /usr/bin/wp-cli core download
+RUN unzip /tmp/latest.zip -d /var/local
 
 RUN mv wp-content wp-content.bak
 RUN mkdir /var/local/wordpress/wp-content
