@@ -2,32 +2,37 @@
 <urlset>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/hello-world/
+            https://rhildred.github.io/hello-world/
         </loc>
     </url>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/whats-uuuuuuup/
+            https://rhildred.github.io/whats-up/
         </loc>
     </url>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/
+            https://rhildred.github.io/another/
         </loc>
     </url>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/sample-page/
+            https://rhildred.github.io/
         </loc>
     </url>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/category/uncategorized/
+            https://rhildred.github.io/sample-page/
         </loc>
     </url>
     <url>
         <loc>
-            https://rhildred.github.io/wp-server/author/rhildred/
+            https://rhildred.github.io/category/uncategorized/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://rhildred.github.io/author/rhildred/
         </loc>
     </url>
 </urlset>
