@@ -1,10 +1,10 @@
 {
-    "homepage": "https://rhildred.github.io",
+    "homepage": "https://rhildred.github.io/wp-server",
     "devDependencies": {
         "wp-pwa": "^0.1.27"
     },
     "scripts": {
         "dev": "docker compose up",
-        "build": "wp-pwa build && npx diy-pwa index dist"
+        "build": "wp-pwa build wp-server && npx diy-pwa index dist"
     }
 }
